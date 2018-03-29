@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "camelize-css",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Yuji Suzuki <y0suzuki0123@gmail.com>",
+  "repository": "https://github.com/yszk0123/camelize-css"
+}

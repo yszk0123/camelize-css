@@ -1,0 +1,6 @@
+.foo-bar__baz {
+  display: none;
+}
+.foo-bar_baz {
+  display: none;
+}

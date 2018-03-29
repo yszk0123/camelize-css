@@ -1,0 +1,2 @@
+#!/bin/sh
+pbpaste | node camelize-css.js | pbcopy
