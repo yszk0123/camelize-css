@@ -2,7 +2,7 @@
 const read = () => require('fs').readFileSync('/dev/stdin', 'utf8');
 
 const camelize = input => input
-  .replace(/^\.[a-z0-9]/, s => s.toUpperCase())
+  .replace(/^\s*\.[a-z0-9]/, s => s.toUpperCase())
   .replace(/-+([a-z0-9])/g, (_, s) => s.toUpperCase())
   .replace(/_+([a-z0-9])/g, (_, s) => s.toUpperCase());
 
